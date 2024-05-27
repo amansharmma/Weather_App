@@ -38,12 +38,12 @@ function Weather() {
                     <Card sx={{ backgroundColor: 'transparent' }} elevation={24}
                     >
                         <Box sx = {{margin : 5}}>  
-                            {/* <Typography>Place Name :- {allData?.location?.name}</Typography> */}
-                            {/* <Typography>State :- {allData.location.region}</Typography>
+                             <Typography>Place Name :- {allData?.location?.name}</Typography> 
+                            <Typography>State :- {allData.location.region}</Typography>
                             <Typography>Country :- {allData.location.country}</Typography>
                             <Typography>Time :- {allData.location.localtime}</Typography>
-                            <Typography>{allData.location.tz_id}</Typography> */}
-                            {/* <img src={allData?.current?.condition?.icon} /> */}
+                            <Typography>{allData.location.tz_id}</Typography> 
+                            <img src={allData?.current?.condition?.icon} /> 
                         </Box>
                     </Card>
                 </Box>
@@ -54,14 +54,14 @@ function Weather() {
                     // sx={{ maxWidth: 345 }}
                     >
                         <Box sx = {{margin : 5}}>
-                            {/* <Typography>Cloud :- {allData.current.cloud}</Typography>
+                            <Typography>Cloud :- {allData.current.cloud}</Typography>
                             <Typography>Temprature :- {allData.current.temp_c}</Typography>
                             <Typography>Last Update :- {allData.current.last_updated}</Typography>
                             <Typography>{allData.current.tz_id}</Typography>
                             <Typography>Sunrise Time :- {allData.forecast.forecastday[0].astro.sunrise}</Typography>
                             <Typography>Sunset Time :- {allData.forecast.forecastday[0].astro.sunset}</Typography>
                             <Typography>Max Temprature :- {allData.forecast.forecastday[0].day.maxtemp_c}</Typography>
-                            <Typography>Min Temprature :- {allData.forecast.forecastday[0].day.mintemp_c}</Typography> */}
+                            <Typography>Min Temprature :- {allData.forecast.forecastday[0].day.mintemp_c}</Typography>
                         </Box>
                     </Card>
                 </Box>
